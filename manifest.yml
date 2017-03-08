@@ -10,3 +10,5 @@ applications:
       BT_MERCHANT_ID: bmi
       BT_PUBLIC_KEY: abc
       BT_PRIVATE_KEY: def
+      BT_PROXY_HOST: http://myproxy.com
+      BT_PROXY_PORT: 80
