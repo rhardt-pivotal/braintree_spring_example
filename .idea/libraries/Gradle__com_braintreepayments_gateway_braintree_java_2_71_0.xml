@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.braintreepayments.gateway:braintree-java:2.71.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.gateway/braintree-java/2.71.0/bc366a334312c9c74288eb77be0c052b48257ea7/braintree-java-2.71.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.gateway/braintree-java/2.71.0/2e95729c6b65ea542cdc77ae91b0cae1c1d60d79/braintree-java-2.71.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
