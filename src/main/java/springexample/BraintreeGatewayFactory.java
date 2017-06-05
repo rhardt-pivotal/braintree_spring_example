@@ -23,6 +23,7 @@ public class BraintreeGatewayFactory {
     private static BraintreeGateway maybeAddProxyToGateway(Map<String, String> properties, BraintreeGateway gateway) {
         if(properties.containsKey("BT_PROXY_HOST")) {
             log.info("Found Proxy");
+            //BT_PROXY_HOST should just be a raw hostname, no http:// !!!!!
             String host = properties.get("BT_PROXY_HOST");
             String port;
             if(properties.containsKey("BT_PROXY_PORT")){
@@ -34,9 +35,6 @@ public class BraintreeGatewayFactory {
             else {
                 port = "80";
             }
-//            if(!(host.toLowerCase().startsWith("http:") || host.toLowerCase().startsWith("https:"))){
-//                log.error("BT_PROXY_HOST should be in the format: http://hostname.your.domain or https://hostname.your.domain");
-//            }
             log.info("************  6/5 Enhancements *******************");
             log.info("proxy host: "+host);
             log.info("proxy port: "+port);
