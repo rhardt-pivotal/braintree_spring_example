@@ -37,6 +37,7 @@ public class BraintreeGatewayFactory {
 //            if(!(host.toLowerCase().startsWith("http:") || host.toLowerCase().startsWith("https:"))){
 //                log.error("BT_PROXY_HOST should be in the format: http://hostname.your.domain or https://hostname.your.domain");
 //            }
+            log.info("************  6/5 Enhancements *******************");
             log.info("proxy host: "+host);
             log.info("proxy port: "+port);
             gateway.setProxy(host, new Integer(port));
